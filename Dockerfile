@@ -16,3 +16,5 @@ EXPOSE 5432
 
 CMD ["postgres", "-c", "config_file=/etc/postgresql/custom.conf"]
 
+# docker build -t gillilo/workout-archive-db:latest .
+# docker run -d -p 5433:5432 --name workout-archive-db --network workout-archive gillilo/workout-archive-db:latest
