@@ -15,3 +15,4 @@ ENV POSTGRES_DB=workoutArchive
 EXPOSE 5432
 
 CMD ["postgres", "-c", "config_file=/etc/postgresql/custom.conf"]
+
